@@ -1,0 +1,103 @@
+html {
+    font-size: 19px;
+    background-color: green;
+    scroll-behavior: smooth;
+}
+
+
+main {
+    font-family: 'Lucida Console';
+}
+
+.block {
+    color: black;
+    background-image: url(licensed-image.jpg);
+    background-color: aqua;
+    padding: 4px;
+    width: 300px;
+    height: 190px;
+    
+}
+
+.left {
+    float: left;
+    margin-right: 8px;
+}
+
+button, input, table, tbody, td, textarea, text, title, tr, td, th, thead {
+    font-family:'MV Boli';
+    color:chartreuse;
+}
+input, textarea {
+    font-size:15px;
+}
+button {
+    font-size:20px;
+}
+h1 {
+    color: yellow;
+    border: solid;
+    padding: 20px;
+    width: 200px;
+    background-color: saddlebrown;
+    border-style: double;
+}
+h2 {
+    color:springgreen;
+}
+h3 {
+    color:chartreuse;
+}
+
+.a {
+    color:black;
+}
+
+.b{
+    color:papayawhip;
+}
+.c {
+    color:yellow;
+}
+.d {
+    color:white;
+}
+.e {
+    color:sandybrown;
+}
+.f {
+    color:darkturquoise;
+}
+.h{
+    color:gold;
+}
+p {
+    color: wheat;
+    font-size: 21px;
+}
+table, tr, th, td, caption {
+    border:solid;
+    border-collapse: collapse;
+    padding: revert;
+}
+
+
+header {
+    position: sticky;
+    z-index: 1;
+}
+
+.fixed {
+    position:fixed;
+    
+    background-color:aqua;
+    height:1000px;
+    width:220px;
+    top:150px;
+}
+
+footer {
+    background-color: palegreen;
+    position: sticky;
+    bottom: 0px;
+}
